@@ -50,6 +50,8 @@ def run_alexa():
         talk('sorry, I have a headache')
     elif 'are you single' in command:
         talk('I am in a relationship with wifi')
+    elif 'i love you' in command:
+        talk('I love you but as friend')
     elif 'joke' in command:
         talk(pyjokes.get_joke())
     else:
